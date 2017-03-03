@@ -1,0 +1,8 @@
+*.hi
+*.o
+*.swp
+*~
+.hsenv
+.stack-work
+/dist*
+*.imports
