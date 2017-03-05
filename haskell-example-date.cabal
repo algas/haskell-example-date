@@ -15,8 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lib
-                     , Data.Time.Wareki
+  exposed-modules:     Data.Time.Wareki
   other-modules:       Data.Time.Wareki.Internal
   build-depends:       base >= 4.7 && < 5
                      , text
@@ -28,6 +27,8 @@ test-suite test
   hs-source-dirs:      test, src
   other-modules:       WarekiSpec
                      , WarekiInternalSpec
+                     , Data.Time.Wareki
+                     , Data.Time.Wareki.Internal
   main-is:             Spec.hs
   build-depends:       base
                      , text
